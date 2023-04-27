@@ -43,6 +43,7 @@ img {
     text-decoration: none;
     color: var(--colo3);
     margin-right: 76px;
+    display: inline-block;
 }
 .logo-footer {
     display: inline-block;
@@ -86,6 +87,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--colo);
     list-style-type: none;
+    padding: 24px 0;
 }
 .link-header:active {
     color:var(--colo3);
