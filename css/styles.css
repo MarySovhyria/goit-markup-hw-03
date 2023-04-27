@@ -64,6 +64,7 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 .studio-logo {
    color: var(--colo);
@@ -352,9 +353,6 @@ margin-left: auto;
 }
 .footer-logo {
     padding-top: 101.5px;
-}
-.footer {
-    padding: 100px 0
 }
 .filters-buttons {
     display: flex;
