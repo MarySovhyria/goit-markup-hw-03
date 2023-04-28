@@ -16,19 +16,19 @@ body {
 /* --reset values-- */
 h1, h2, h3, h4, h5, h6, p {
     padding: 0;
+    margin: 0;
+    padding: 0;
 }
 img {
     display: block;
 }
 
 .head {
-    width: 1440px;
     background-color: var(--colo5);
-    padding-top: 24px;
+    /* padding-top: 24px; */
     border-bottom: 1px solid var(--colo8);
 }
 .foot {
-    width: 1440px;
     background: var(--colo);
     padding: 100px 0;
 }
@@ -59,7 +59,6 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 .header-ul {
     display: flex;
@@ -118,8 +117,6 @@ margin-left: auto;
 }
 .hero {
     background: var(--colo);
-    width: 1440px;
-    height: 600px;
     font-weight: 700;
     line-height: 1.07;
     padding: 188px 0;
@@ -133,7 +130,8 @@ margin-left: auto;
     color:var(--colo5);
     max-width: 496px;
     height: 120px; 
-    margin-left: 316px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .button {
     background-color:var(--colo3);
@@ -147,8 +145,9 @@ margin-left: auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
-    margin-left: 480px;
-    margin-top: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
     display: block;
     border: none;
 }
@@ -176,8 +175,6 @@ margin-left: auto;
 }
 .team {
     background-color: var(--colo4);
-    width: 1440px;
-    height: 732px;
     padding: 120px 0
 }
 .features-title {
@@ -193,6 +190,19 @@ margin-left: auto;
     line-height: 1.5;
     color: var(--colo2);
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -235,9 +245,7 @@ margin-left: auto;
     font-size: 16px;
     line-height: 1.5;
     color: var(--colo4);
-    margin-top: 17.5px;
-    margin-bottom: 100px;
-    margin-top: 17.5px;
+    margin-top: 16px;
     max-width: 264px;
 }
 .button-portfolio {
@@ -316,6 +324,8 @@ margin-left: auto;
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .about-section {
     padding: 120px 0;
@@ -350,16 +360,24 @@ margin-left: auto;
 .team-ul {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
     height: 380px;
 }
 .footer-logo {
-    padding-top: 101.5px;
+    padding-top: 100px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--colo3);
+    display: inline-block;
 }
 .filters-buttons {
     display: flex;
     gap: 24px;
-    margin-top: 96px;
     border-radius: 4px;
     margin-bottom: 72px;
     justify-content: center;
@@ -367,7 +385,6 @@ margin-left: auto;
 .photos-list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;    
 }
