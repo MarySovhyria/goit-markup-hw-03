@@ -87,6 +87,7 @@ img {
     color: var(--colo);
     list-style-type: none;
     padding: 24px 0;
+    display: block;
 }
 .link-header:active {
     color:var(--colo3);
@@ -203,7 +204,7 @@ margin-left: auto;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-.section-title {
+  .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -319,6 +320,8 @@ margin-left: auto;
     width: 1158px;
     margin-left: 156px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-container {
     display: flex;
